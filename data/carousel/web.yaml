@@ -1,0 +1,10 @@
+weight: 3
+title: "Web Developer"
+description: >
+  <ul class="list-style-none">
+    <li>Clean and elegant design</li>
+    <li>Optimized for desktop and Mobile</li>
+    <li>Responsive and user friendly</li>
+    <li>Quick and painless deployment</li>
+  </ul>
+image: "img/carousel/web-development.jpg"
