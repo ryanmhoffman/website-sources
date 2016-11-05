@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://ryanmhoffman.github.io"
 title = "Ryan M. Hoffman"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
