@@ -1,4 +1,4 @@
-baseurl = "https://ryanmhoffman.github.io"
+baseurl = "https://ryanmhoffman.github.io/"
 title = "Ryan M. Hoffman"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -78,36 +78,44 @@ paginate = 10
     enable = true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
 
 [params.features]
     enable = true
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
 
 [params.testimonials]
     enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to know more?"
+    title = "Want to know more?"
     subtitle = "Whether you need an app or website built, updated, or you just want to learn more, I would love to hear from you."
     link_url = "/contact/"
-    link_text = "Contact Us"
+    link_text = "Contact Me"
 
 [params.clients]
     enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Our Clients"
+    subtitle = ""
+
+[params.social]
+    enable = true
+    # All social links are defined in their own files. You can find example items
+    # at 'exampleSite/data/social'.
+    # For more information take a look at the README.
+    title = "Follow Me"
     subtitle = ""
 
 [params.recent_posts]
