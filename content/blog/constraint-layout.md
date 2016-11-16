@@ -36,7 +36,9 @@ supposed to help improve performance and make it scale across different screen s
 tested performance or scalability so I don't know if it is actually better in those regards. If you run
 any tests please let me know the results, I'll add them here and credit you.
 
-### After Using it to Design Screens
+<img src="/img/banners/layout-editor.png" style="width: 100%; height: 100%"/>
+
+## After Using it to Design Screens
 I decided to give it the benefit of the doubt and it appeared to be the future of Android development so I
 figured I needed to get on board. Using it was definitely weird at first, but after a while of making
 different layouts I started to get used to it a little bit. Sometimes it was a little buggy, but that's to
@@ -61,7 +63,7 @@ as a actual preview of what is on the screen, content and all. My problem is tha
 it's just overall confusing. I wish they only allowed editing in the blueprint mode and the preview was
 exactly that, just a preview. Perhaps in a future release they will make that change.
 
-### Final Thoughts
+## Final Thoughts
 It is still going to take some getting used to, but I see this as the future of Android design and
 development and I really am excited about what Google is going to add down the road. I'm going to
 continue to use it and learn more about it and perhaps start actually using it in projects here soon. At
@@ -69,3 +71,5 @@ it's current stage I don't think it is production ready, but that could change w
 keep this updated as new versions come out and I learn more about it. If I get more comfortable with it I
 may even write a tutorial.
 
+As always, please follow me on twitter [@hoffmanryan1](https://www.twitter.com/hoffmanryan1) and on medium
+[@rmhcompaines](https://www.medium.com/@rmhcompanies).
