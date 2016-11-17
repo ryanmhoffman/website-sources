@@ -1,5 +1,5 @@
 +++
-title = "CBT Velocity Android App"
+title = "Android Constraint Layout"
 date = "2016-11-15T13:47:08+02:00"
 tags = ["Mobile Development", "Programming"]
 categories = ["Android"]
@@ -7,7 +7,7 @@ banner = "img/banners/layout-editor.png"
 author = "Ryan M. Hoffman"
 +++
 
-## Android Constraint Layout
+## Overview
 There are many different views and view groups in the Android infrastructure. Some are more useful than
 others, but they all have their place. Recently, Google released a new layout called ConstraintLayout.
 
