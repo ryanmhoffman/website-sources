@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/tags/apps/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CBT Velocity Android App</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/02/velocity-android-app/</link>
+      <pubDate>Wed, 02 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/02/velocity-android-app/</guid>
+      <description>
+
+&lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;This app was created for high school students. Specifically, the high school students in my church, Canton
+Baptist Temple, who are a part of the youth group which is called - as you might have guessed, Velocity.
+The thinking behind this is pretty simple and makes a lot of sense if you have ever spent any time around
+high school students. The issue is that no matter how many times you tell them something, they still have
+no idea what you said - unless you put it right in front of them on their phone.&lt;/p&gt;
+
+&lt;p&gt;The problem we had was that we would announce class activities, mail out fliers, and have sign up sheets
+in the class, yet we would still have parents and students calling a couple days before hand to ask for
+all the details we had already made sure were available. We decided the best way to get them this info
+was on their phone in an app with notifications and reminders and all the details they need.&lt;/p&gt;
+
+&lt;h2 id=&#34;development-and-vision&#34;&gt;Development and Vision&lt;/h2&gt;
+
+&lt;p&gt;CBT Velocity is a native app designed for the Android platform. It is coded in Java and XML, and I host
+all of the content used in the app on my LAMP (Linux Apache MySQL PHP) server. As you can tell from the
+screenshots I used material design for the UI/UX and I tried to keep it simple with a card based layout.
+The cards are set in a RecyclerView and each card is retrieved over the network from my server. The
+navigation drawer contains links to other related social media pages, and to the settings, where you can
+configure data/wifi usage and turn notifications on/off.&lt;/p&gt;
+
+&lt;p&gt;There are a couple things not implemented yet that I plan to add eventually. The first is going to be
+in-app sign up for activities. I want the students to be able to log in to the app, click on the activity
+and sign up there instead of the paper sheets we have in the class. The next one piggy-backs on that, and
+it is to have in app payment for the activities. Instead of remembering to bring $20 to church or to the
+activity, they should be able to log in and securely pay us right from within the app.&lt;/p&gt;
+
+&lt;p&gt;The whole app is open source, please check it out at &lt;a href=&#34;https://github.com/ernieb4768/CBTVelocity&#34;&gt;github&lt;/a&gt;
+and let me know what you think!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/cbt-velocity-activities.png&#34; style=&#34;width: 33%; height: 33%; padding: 5px&#34;/&gt; &lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/cbt-velocity-about-us.png&#34; style=&#34;width: 33%; height: 33%; padding: 5px&#34;/&gt; &lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/cbt-velocity-nav-drawer.png&#34; style=&#34;width: 33%; height: 33%; padding: 5px&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

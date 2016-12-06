@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/categories/web-development/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mobile Friendly Websites</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/03/mobile-friendly-websites/</link>
+      <pubDate>Thu, 03 Nov 2016 21:49:20 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/03/mobile-friendly-websites/</guid>
+      <description>
+
+&lt;h2 id=&#34;why-should-i-make-my-website-mobile-friendly&#34;&gt;Why Should I Make My Website Mobile Friendly?&lt;/h2&gt;
+
+&lt;p&gt;Practically everyone is on a mobile phone now. As of 2016 there are &lt;a href=&#34;https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/&#34;&gt;2.1 billion smartphone users&lt;/a&gt;.
+Even more impressive is more than &lt;a href=&#34;https://www.thinkwithgoogle.com/research-studies/creating-moments-that-matter.html&#34;&gt;3 out of 4 people&lt;/a&gt; would choose to search the internet on their phone over a desktop computer even if they had easy access to a desktop computer. Why? It&amp;rsquo;s faster and easier. I have an old Moto X from 2013, the original one. It is 3 years old, and I don&amp;rsquo;t even know how it&amp;rsquo;s still alive. But it is still quicker for me to search on that old phone than to log into my desktop computer, even if I&amp;rsquo;m in the same room as my computer. I can say &amp;ldquo;OK Google&amp;rdquo; and then ask it a question and get an answer without ever pulling it out of my pocket. People are impatient. If your site takes more than a few seconds to load they will not wait. If it loads and is a full desktop site on a tiny 5 inch screen they will almost definitely leave. Who wants to zoom in to make text readable then have to slide all around the screen to try to read each sentence? Not me&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I said all that to say this: if you haven&amp;rsquo;t updated your website to make it mobile friendly you are most likely losing customers. Google
+have created a great tool to test if your site is mobile friendly. Just go &lt;a href=&#34;https://www.google.com/webmasters/tools/mobile-friendly/&#34;&gt;here&lt;/a&gt; and enter your url.&lt;/p&gt;
+
+&lt;p&gt;But what if it says your site is not mobile friendly?&lt;/p&gt;
+
+&lt;h2 id=&#34;how-can-i-make-my-website-mobile-friendly&#34;&gt;How Can I Make My Website Mobile Friendly?&lt;/h2&gt;
+
+&lt;p&gt;The good news is it is easier than ever to make a mobile website. There are dozens of frameworks available that can be used to make a
+beautiful desktop site that scales perfectly onto smaller screens. One of the most popular is &lt;a href=&#34;https://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt;. If
+you have the technical knowledge you can migrate an entire smaller website in just a day or two. But what if you don&amp;rsquo;t have the technical knowledge? It&amp;rsquo;s time to start thinking about hiring a web developer. I know what you&amp;rsquo;re probably thinking: that sounds Expensive. And it can be if you don&amp;rsquo;t do your homework first. But it can also be one of the best investments you can make in this mobile driven world.&lt;/p&gt;
+
+&lt;p&gt;Freelancing is gaining more and more popularity each year, and there are some very talented people out there who freelance full time. I
+began freelancing in my spare time, and I love it. You can hire a freelancer to either update or completely rebuild your website and it
+will be mobile friendly from the ground up.&lt;/p&gt;
+
+&lt;p&gt;If you think it is time to redo your website and aren&amp;rsquo;t sure where to start, please feel free to &lt;a href=&#34;https://ryanmhoffman.github.io/contact/&#34;&gt;contact&lt;/a&gt; me. I do freelance
+web design and development and I would love to work with you on your next project.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;If you are looking for more resources on optimizing your site I recommend checking out &lt;a href=&#34;https://developers.google.com/webmasters/mobile-sites/&#34;&gt;Google&amp;rsquo;s page&lt;/a&gt; on this topic. They cover it very well and even have tutorials if you want to tackle it yourself.&lt;/p&gt;
+
+&lt;p&gt;If you enjoyed this post, please check back later for more thoughts. I post new content weekly. Until then you can follow me on twitter &lt;a href=&#34;https://www.twitter.com/hoffmanryan1&#34;&gt;@hoffmanryan1&lt;/a&gt; and medium &lt;a href=&#34;https://www.medium.com/@rmhcompanies&#34;&gt;@rmhcompanies&lt;/a&gt; for other non-tech related content.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making This Website</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/01/making-this-site/</link>
+      <pubDate>Tue, 01 Nov 2016 03:39:46 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/01/making-this-site/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;I built this website for a couple different purposes. I wanted a place to showcase my portfolio and direct
+potential clients for my freelance business. I also wanted to build a blog. I decided that the two ideas
+related enough to warrant being one site. I also wanted something simple that wouldn&amp;rsquo;t take weeks to
+create and be a nightmare to host. I did some research and settled on using &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, a
+static site generator built with the &lt;a href=&#34;https://golang.org/&#34;&gt;go programming language&lt;/a&gt; by Google. I went with
+a static site because I wanted something fast and easy to develop AND fast when being served. Hugo checked
+both of those boxes. All in from the time I first discovered hugo to the time I deployed this site on
+&lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt; was about 8 hours of work. That was spread over two evenings,
+but you get my point on how easy it was to learn and use.&lt;/p&gt;
+
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+
+&lt;p&gt;I wanted something modern that would scale well across desktop and mobile, and again hugo had me covered.
+there are tons of &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;themes&lt;/a&gt; for hugo that make design a breeze. I ended up
+choosing &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;universial theme&lt;/a&gt;. This had everything I was
+looking for and was a joy to work with and modify to suit my needs. Shout-out to &lt;a href=&#34;https://bootstrapious.com/p/universal-business-e-commerce-template&#34;&gt;Bootstrapious&lt;/a&gt;
+for creating the original design and to &lt;a href=&#34;https://www.devcows.com/&#34;&gt;DevCows&lt;/a&gt; for porting it to hugo.
+Fantastic job!&lt;/p&gt;
+
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;As I mentioned earlier this took me about 8 hours total to build. I was expecting to spend a week or more
+easily, as building a portfolio site and a blog is a relatively small project but by no means is it &amp;ldquo;easy.&amp;rdquo;
+The blog is probably my favorite part. Publishing a new blog post is as simple as copying the markdown
+file into a folder, rebuilding the site and seeing it pop up.&lt;/p&gt;
+
+&lt;p&gt;Since it is a static site and there is no database or php/node.js etc., there aren&amp;rsquo;t any comments&amp;hellip; or
+so you would think. But with &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt; it is very easy to add comments even without
+any of the server side scripts. Currently I don&amp;rsquo;t have this enabled, but it is something I might look into
+in the future.&lt;/p&gt;
+
+&lt;p&gt;Another genius feature included was in the &lt;a href=&#34;https://ryanmhoffman.github.io/contact/&#34;&gt;contact&lt;/a&gt; section. Again, no server side scripts to
+handle the form, but it was all thought out. &lt;a href=&#34;https://formspree.io/&#34;&gt;Formspree.io&lt;/a&gt; is included to handle
+all of the emails to make sure you get them delivered to your inbox. It is a very straightforward setup,
+and the best part is it&amp;rsquo;s free! If you exceed 1000 emails in a month there is a subscription plan, but I&amp;rsquo;m
+not there yet.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This has been a great experience using hugo to build my website. I&amp;rsquo;m very happy with the outcome, and I
+would highly recommend checking it out. I may come back and update this after spending more time
+maintaining and updating the site, but currently I&amp;rsquo;m thrilled.&lt;/p&gt;
+
+&lt;p&gt;In the mean time, please continue to check back periodically. I add new content weekly. For even more
+frequent updates follow my on twitter &lt;a href=&#34;https://www.twitter.com/hoffmanryan1&#34;&gt;@hoffmanryan1&lt;/a&gt; and you can
+check out my non-tech related ramblings over at my blog on medium &lt;a href=&#34;https://www.medium.com/@rmhcompanies&#34;&gt;@rmhcompanies&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
