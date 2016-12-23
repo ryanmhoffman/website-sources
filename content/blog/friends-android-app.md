@@ -55,3 +55,13 @@ sure it goes well on release.
 
 I'll update this post frequently with news on the release schedule and probably continue to update it
 after it is released to announce improvements and future features.
+
+## *Update*
+Friends has officially been published to the Play Store. Of course it is a bare bones version, but there
+will be more updates down the line. I did end up adding the long press to call from the main screen since
+that was a very quick edit to the code. I also added a sorting function to put your friends in
+alphabetical order. That was relatively simple to implement and makes it much easier to scroll and find
+the person you are looking for. If you want to check it out please download it from the Play Store and
+leave me a review letting me know what you think!
+
+<a href='https://play.google.com/store/apps/details?id=com.software.rmh.friends'><img src='/img/google-play-badge.png'/></a>
