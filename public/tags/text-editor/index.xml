@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/tags/text-editor/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 - 2018 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nearly 8 Months with Vim</title>
+      <link>https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/</link>
+      <pubDate>Wed, 27 Dec 2017 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;how-i-feel-about-vim-now&#34;&gt;How I Feel About Vim Now&lt;/h1&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This post is a follow up on a post I wrote several months ago about my starting point with Vim. If you missed that post, you can
+read it &lt;a href=&#34;https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/&#34;&gt;here&lt;/a&gt;. That details how and when I started with Vim nearly 8 months ago.
+Now it is an integral part of my workflow. It is my only text editor, and I don&amp;rsquo;t know how I lived without it before. The intention
+isn&amp;rsquo;t to preach Vim here and force it on anyone; I am merely chronicling my adventures in learning this editor.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-i-use-vim&#34;&gt;How I use Vim&lt;/h2&gt;
+
+&lt;p&gt;Vim is my general text editor now, used for pretty much everything but Java and Kotlin (Android development). I use it for
+Python, editing my configs, even writing this post in Markdown. I have personalized my vimrc a little bit, but it is actually
+still very small. I use a few plugins too, but again they are very few. I have found that Vim does a lot of things that many
+people might not know about and try to use plugins for.&lt;/p&gt;
+
+&lt;p&gt;Beyond jusing actual Vim in the terminal, I also have begun using plugins wherever possible to add Vim bindings to different
+applications. I have added IdeaVim to Intellij Idea and Android Studio to configure as many keys as possible to behave like
+Vim. It is very good, but not perfect. It definitely is good enough to recommend to about any Vim user out there. I also use
+Vimium extension in Vivaldi, my browser. It is an extension for Chrome technically, but since Vivaldi is based on the
+chromium open source project same as Chrome, the extensions mostly work on it. Vimium uses many of the navigation key bindings
+from Vim and adds some to help with link navigation etc. It makes it possible to use the broswer mostly without a mouse.&lt;/p&gt;
+
+&lt;h2 id=&#34;my-vim-configuration&#34;&gt;My Vim Configuration&lt;/h2&gt;
+
+&lt;p&gt;My Vim config is pretty small, but it does have some changes, almost none are unique to me. I find things from other people&amp;rsquo;s
+configs and use them, just like everyone else does. Some big changes I have made are remapping the escape key to jj. Other
+than typing it right there, I have never had to type two j&amp;rsquo;s together before, so it is a safe string to use. It is on the
+home row so I don&amp;rsquo;t have to stretch for escape every time I want to exit insert mode. For plugins, I have added Nerdtree
+for easy file navigation, I added YouCompleteMe code completion engine, and I have added powerline. I use relative line
+numbers for easy jumping from line to line. The last customizations I made are just visual, I use syntax highlighting and
+the color scheme I have set is darcula, which looks like the theme of the same name in Jetbrains IDEs.&lt;/p&gt;
+
+&lt;h2 id=&#34;where-i-m-going-from-here&#34;&gt;Where I&amp;rsquo;m Going From Here&lt;/h2&gt;
+
+&lt;p&gt;Vim is my main editor now, and I can&amp;rsquo;t see myself switching any time soon. That doesn&amp;rsquo;t mean I will never try something else,
+but I have become so much more productive with Vim that it feels like a waste to use anything else now. I don&amp;rsquo;t want to be
+a vim evangelist, preaching it to all. It simply is the best editor for me and my workflow. That does not mean it is for
+everyone, nor should it be. I might make tutorials some day about Vim, but for now, I am just a happy user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Vim</title>
+      <link>https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/</link>
+      <pubDate>Fri, 28 Apr 2017 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;getting-started-with-vim&#34;&gt;Getting Started with Vim&lt;/h1&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;The title of this article might be misleading a little bit, but this is not a tutorial about how to get started with Vim.
+It is in fact a small post about my decision to get started with Vim. I recently made the decision to start using Vim as
+my main (read only) editor. I decided that I&amp;rsquo;m going to give it a try for 37 days, and after that I will see if I like it
+and if it makes me any more productive than with my current editor.&lt;/p&gt;
+
+&lt;h2 id=&#34;starting-point&#34;&gt;Starting Point&lt;/h2&gt;
+
+&lt;p&gt;Other than a minimal knowledge of what Vim was, I knew nothing about using it or how to get started. I installed it on all
+my machines about 3 days ago, and now I&amp;rsquo;m already using it full time. I&amp;rsquo;m still very slow, I have to look up commands about
+every other minute, and I constantly stop to tweak my .vimrc but I&amp;rsquo;m learning quickly.&lt;/p&gt;
+
+&lt;p&gt;I decided to start with a blank slate. I used a pure vanilla install of Vim, and I created a blank .vimrc as a starting point.
+I wanted to follow the advice that said you shouldn&amp;rsquo;t start with someone else&amp;rsquo;s configuration, and don&amp;rsquo;t put anything in your
+.vimrc that you don&amp;rsquo;t understand. It&amp;rsquo;s working for me so far, but as I mentioned I&amp;rsquo;ve only been using it for a few days now.&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
+
+&lt;p&gt;I got the basics down for navigation through the file, and basic editing with delete, copy/paste and insert. I&amp;rsquo;m trying my
+best stay in normal mode as much as possible and only switch to insert mode when necessary. It&amp;rsquo;s slower for me right now, but
+I can already see how it will get faster once I get the commands into my fingers.&lt;/p&gt;
+
+&lt;h2 id=&#34;where-i-m-going-from-here&#34;&gt;Where I&amp;rsquo;m Going From Here&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m going to continue to only use Vim for the next 30 days. At the end of May, I&amp;rsquo;m going to post an update on whether I plan
+to stick with Vim, and either way I&amp;rsquo;m going to give my complete and honest thoughts on using it. I will explain how it made me
+more or less productive and if it was worth learning all the commands and keyboard shortcuts.&lt;/p&gt;
+
+&lt;p&gt;I should also mention that I have installed IdeaVim plugin for Intellij IDEA and Android Studio. I do the majority of my
+development in Android Studio since I&amp;rsquo;m an Android developer, so I figured to really double down and get the full experience
+I need Vim everywhere. Stay tuned for the update next month and happy Vimming!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

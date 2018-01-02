@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/tags/gradle/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 - 2018 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Studio Libraries With Gradle</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/12/01/android-studio-libraries-with-gradle/</link>
+      <pubDate>Thu, 01 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/12/01/android-studio-libraries-with-gradle/</guid>
+      <description>
+
+&lt;h1 id=&#34;using-libraries-in-android-studio&#34;&gt;Using Libraries in Android Studio&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/banner_gradle_android.png&#34; style=&#34;width: 100%; height: 100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;intro-to-gradle-for-android-studio&#34;&gt;Intro to Gradle for Android Studio&lt;/h2&gt;
+
+&lt;p&gt;Android Studio switched to a gradle based build system a few years ago, and that made it very simple to
+incorporate open source libraries  your Android projects. If you aren&amp;rsquo;t familiar with gradle you can
+learn more about it &lt;a href=&#34;https://gradle.org/getting-started-android-build/&#34;&gt;here&lt;/a&gt;. The details of gradle
+recipes are beyond the scope of this post, but I will show the very basics of including libraries in
+your project. Fortunately gradle makes it dummy-proof to add dependencies in your project. Gradle is not
+the only way to add a library to your project, and if you are familiar with eclipse then you are most
+likely familiar with adding .jar files to your project. This is still possible in Android Studio, but I
+will not be covering that in this post, and I don&amp;rsquo;t recommend it. By using gradle, all you need to do is
+include 1 line of code in you &lt;code&gt;build.gradle&lt;/code&gt; file and it does the rest. It pulls in the dependency at
+build time so it doesn&amp;rsquo;t need to be downloaded and included as a .jar file. Even more appealing than that
+is how easy it is to use it with different versions of libraries. With gradle, if you are using
+&lt;code&gt;my-awesome-library:v1.0&lt;/code&gt; but then version 2-0 comes out, all you have to do is change that statement
+to &lt;code&gt;my-awesome-library:v2.0&lt;/code&gt; and start using the updates immediately. That is much easier than
+deleting the .jar and downloading and adding the new version.&lt;/p&gt;
+
+&lt;p&gt;So now that we know the differences let&amp;rsquo;s have a look at adding external libraries with gradle.&lt;/p&gt;
+
+&lt;h2 id=&#34;adding-libraries-with-gradle&#34;&gt;Adding Libraries with Gradle&lt;/h2&gt;
+
+&lt;p&gt;When you create a new project in Android Studio it is already preconfigured to use gradle. If you look
+through the project files that are created initially you will find a couple different gradle files. The
+first one is probably your high level project file. This is the gradle file to configure project-wide
+settings. We will not need to modify this file for what we are going to accomplish in this tutorial. Next
+will be the module level gradle files. If you created a simple app with only one module then there will
+only be one module level &lt;code&gt;build.gradle&lt;/code&gt;. If you included other modules in your project, for example
+Android Wear, Android TV, or Android Auto then there should be more than one version of this file for
+each module. Each one should be labeled next to it in parentheses describing what it is for.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;build.gradle (Project: MyProject)
+build.gradle (Module: mobile)
+build.gradle (Module: wear)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The one you need to edit is the &lt;code&gt;build.gradle (Module: mobile)&lt;/code&gt; to add the open source library to our
+project. The library we are going to add in this example is Google&amp;rsquo;s
+&lt;a href=&#34;https://developer.android.com/training/material/lists-cards.html#CardView&#34;&gt;CardView&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how easy it is to add a library to your project with gradle and Android Studio. Start by opening
+the &lt;code&gt;build.gradle&lt;/code&gt; file for the mobile module. Find the section near the bottom labeled
+&lt;code&gt;dependencies&lt;/code&gt; and add this line to the bottom of that section:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;compile &#39;com.android.support:cardview-v7:25.0.1&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dependencies {
+  // other module dependencies may be listed here
+  ...
+  compile &#39;com.android.support:cardview-v7:25.0.1&#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once you add that line Android Studio will let you know that gradle files have changed and prompt you to
+sync your project with gradle. Once you do that you can immediately begin using the library in your code.
+If a new version is released just change the version number in your gradle file and sync your project
+again and that&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;h2 id=&#34;adding-modules&#34;&gt;Adding Modules&lt;/h2&gt;
+
+&lt;p&gt;I have already mentioned modules above a little bit, but I haven&amp;rsquo;t really explained what they are or what
+they are used for. Modules are basically just portions of code that are broken out into groups to make
+them easily reusable. You can think of them as mini projects within your main project. As I mentioned
+earlier, when you create an app for mobile, wear, auto, and tv, Android Studio automatically sets up each
+as its own module. This is so you can define activities and views for each in their own module without it
+affecting any of the others. But you can also create your own modules. I like to create a module for all
+of the logic and data classes in my apps, that way the code can be shared to each portion of the app.&lt;/p&gt;
+
+&lt;p&gt;For instance, if I have an app that has a phone portion and a wear portion, most likely it will pull data
+from a server and both portions will need to use that data. Rather than retrieve that data and use it in
+the phone module, then retrieve and use it in the wear module, I build a separate data module to retrieve
+the data from the server and both the phone and wear modules can use it as necessary from there. Pretty
+much any logic, data loading/storage can be put in modules this way to save writing it all multiple
+times.&lt;/p&gt;
+
+&lt;p&gt;Adding a module is quite simple and very similar to adding an external library. In your project there
+should be a &lt;code&gt;settings.gradle&lt;/code&gt; file. This file manages what modules are included in your project. It
+should look something like this for the most basic project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;include &#39;:app&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To add your module you have to add this, replacing &amp;ldquo;myshinynewmodule&amp;rdquo; with the name of your module or
+library.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;include &#39;:app&#39;, &#39;:myshinynewmodule&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After this you are almost done. There is one final step before you can use the code in your shiny new
+module in your app. As we did with the cardview library earlier, open the &lt;code&gt;build.gradle&lt;/code&gt; file for
+your mobile module. In the dependencies section that we modified earlier add this line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;compile project (&#39;:myshinynewmodule&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. You can now start using the code from your module in your app just as if it were an external
+library.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope this was clear and you were able to learn something about gradle, dependencies, or using modules
+in your Android project. If you have any questions please reach out to me and I&amp;rsquo;d be happy to help. If
+you spot any errors, please let me know about them so I can make this as accurate as possible.
+(BE GENTLE!!) As always, please follow me on twitter
+&lt;a href=&#34;https://www.twitter.com/hoffmanryan1&#34;&gt;@hoffmanryan1&lt;/a&gt; and on medium
+&lt;a href=&#34;https://www.medium.com/@rmhcompanies&#34;&gt;@rmhcompaines&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

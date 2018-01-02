@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Getting Started with Vim</title>
+
+  <meta name="author" content="" />
+  <meta name="keywords" content="">
+
+  
+
+  <meta name="generator" content="Hugo 0.17" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  
+  <link href="https://ryanmhoffman.github.io/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://ryanmhoffman.github.io/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://ryanmhoffman.github.io/css/custom.css" rel="stylesheet">
+
+  
+    
+
+  
+  <link rel="shortcut icon" href="https://ryanmhoffman.github.io/img/favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://ryanmhoffman.github.io/img/favicon.png" />
+  
+
+  <link href="https://ryanmhoffman.github.io/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://ryanmhoffman.github.io/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://ryanmhoffman.github.io/index.xml" type="application/rss+xml" title="Ryan M. Hoffman">
+
+  
+  <meta property="og:title" content="Getting Started with Vim" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/2017/04/28/getting-started-with-vim//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://ryanmhoffman.github.io/">
+                    <img src="https://ryanmhoffman.github.io/img/logo.png" alt="Getting Started with Vim logo" class="hidden-xs hidden-sm">
+                    
+                    <span class="sr-only">Getting Started with Vim - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="dropdown">
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/faq/">FAQ</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/contact/">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Getting Started with Vim</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Ryan M. Hoffman</a> | April 28, 2017</p>
+
+                        <div id="post-content">
+                          
+
+<h1 id="getting-started-with-vim">Getting Started with Vim</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The title of this article might be misleading a little bit, but this is not a tutorial about how to get started with Vim.
+It is in fact a small post about my decision to get started with Vim. I recently made the decision to start using Vim as
+my main (read only) editor. I decided that I&rsquo;m going to give it a try for 37 days, and after that I will see if I like it
+and if it makes me any more productive than with my current editor.</p>
+
+<h2 id="starting-point">Starting Point</h2>
+
+<p>Other than a minimal knowledge of what Vim was, I knew nothing about using it or how to get started. I installed it on all
+my machines about 3 days ago, and now I&rsquo;m already using it full time. I&rsquo;m still very slow, I have to look up commands about
+every other minute, and I constantly stop to tweak my .vimrc but I&rsquo;m learning quickly.</p>
+
+<p>I decided to start with a blank slate. I used a pure vanilla install of Vim, and I created a blank .vimrc as a starting point.
+I wanted to follow the advice that said you shouldn&rsquo;t start with someone else&rsquo;s configuration, and don&rsquo;t put anything in your
+.vimrc that you don&rsquo;t understand. It&rsquo;s working for me so far, but as I mentioned I&rsquo;ve only been using it for a few days now.</p>
+
+<h2 id="basic-commands">Basic Commands</h2>
+
+<p>I got the basics down for navigation through the file, and basic editing with delete, copy/paste and insert. I&rsquo;m trying my
+best stay in normal mode as much as possible and only switch to insert mode when necessary. It&rsquo;s slower for me right now, but
+I can already see how it will get faster once I get the commands into my fingers.</p>
+
+<h2 id="where-i-m-going-from-here">Where I&rsquo;m Going From Here</h2>
+
+<p>I&rsquo;m going to continue to only use Vim for the next 30 days. At the end of May, I&rsquo;m going to post an update on whether I plan
+to stick with Vim, and either way I&rsquo;m going to give my complete and honest thoughts on using it. I will explain how it made me
+more or less productive and if it was worth learning all the commands and keyboard shortcuts.</p>
+
+<p>I should also mention that I have installed IdeaVim plugin for Intellij IDEA and Android Studio. I do the majority of my
+development in Android Studio since I&rsquo;m an Android developer, so I figured to really double down and get the full experience
+I need Vim everywhere. Stay tuned for the update next month and happy Vimming!</p>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="https://ryanmhoffman.github.io/categories/android">android (6)</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/categories/development">development (3)</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/categories/mobile-development">mobile-development (1)</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/categories/web-development">web-development (2)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/android"><i class="fa fa-tags"></i> android</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/android-studio"><i class="fa fa-tags"></i> android-studio</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/app"><i class="fa fa-tags"></i> app</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/apps"><i class="fa fa-tags"></i> apps</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/development"><i class="fa fa-tags"></i> development</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/github"><i class="fa fa-tags"></i> github</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/gradle"><i class="fa fa-tags"></i> gradle</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/ios"><i class="fa fa-tags"></i> ios</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/mobile"><i class="fa fa-tags"></i> mobile</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/mobile-development"><i class="fa fa-tags"></i> mobile-development</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/programming"><i class="fa fa-tags"></i> programming</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/terminology"><i class="fa fa-tags"></i> terminology</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/text-editor"><i class="fa fa-tags"></i> text-editor</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/trello"><i class="fa fa-tags"></i> trello</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/vim"><i class="fa fa-tags"></i> vim</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/web-design"><i class="fa fa-tags"></i> web-design</a>
+            </li>
+            
+            <li><a href="https://ryanmhoffman.github.io/tags/web-development"><i class="fa fa-tags"></i> web-development</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About me</h4>
+
+            <p>Ryan M. Hoffman is a freelance mobile app developer, web developer and blogger.</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/">
+                          
+                            <img src="https://ryanmhoffman.github.io/img/banners/Vimlogo.svg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/">Nearly 8 Months with Vim</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/">
+                          
+                            <img src="https://ryanmhoffman.github.io/img/banners/Vimlogo.svg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/">Getting Started with Vim</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://ryanmhoffman.github.io/blog/2017/03/01/android-terminology/">
+                          
+                            <img src="https://ryanmhoffman.github.io/img/banners/android-terminology.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://ryanmhoffman.github.io/blog/2017/03/01/android-terminology/">Android Terminology Overview</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+            <h4>Contact</h4>
+
+            <p><strong>RMH Companies</strong>
+        <br>2131 36th St. NW
+        <br>Canton, OH 44709
+        <br><strong>United States</strong>
+      </p>
+      
+
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2016 - 2018 RMH Companies; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="https://ryanmhoffman.github.io/js/hpneo.gmaps.js"></script>
+<script src="https://ryanmhoffman.github.io/js/gmaps.init.js"></script>
+<script src="https://ryanmhoffman.github.io/js/front.js"></script>
+
+
+<script src="https://ryanmhoffman.github.io/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>

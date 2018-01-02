@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/tags/mobile-development/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 - 2018 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/tags/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Studio Keyboard Shortcuts</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/21/android-studio-shortcuts/</link>
+      <pubDate>Mon, 21 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/21/android-studio-shortcuts/</guid>
+      <description>
+
+&lt;h2 id=&#34;android-studio-shortcuts&#34;&gt;Android Studio Shortcuts&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/android-studio.png&#34; style=&#34;width: 100%; height: 100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have used Android Studio for even a short time I&amp;rsquo;m sure you have found some shortcuts and hot keys
+to speed up your coding and keep your hands on the keyboard where they belong! I&amp;rsquo;m going to run through
+some of the shortcuts I find most useful. Android Studio is built by Google, but it is based on Jetbrains
+Intellij Community Edition Java IDE. This means that all of the Intellij shortcut keys work on Android
+Studio, but Google have added a few of their own. Let&amp;rsquo;s jump into some of the best ones.&lt;/p&gt;
+
+&lt;h3 id=&#34;searching-for-a-shortcut&#34;&gt;Searching For A Shortcut&lt;/h3&gt;
+
+&lt;p&gt;Stop me if this has happened to you before. You read an awesome tutorial on shortcuts and hot keys in
+Android Studio and found a few that looked really useful, but when you sit down and start coding you
+can&amp;rsquo;t remember what they were. Fortunately someone thought of this and made several several search
+functions.&lt;/p&gt;
+
+&lt;h4 id=&#34;search-everywhere&#34;&gt;Search everywhere:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Shift Shift&lt;/strong&gt; (Windows, Linux, Mac)
+This searches literally everywhere. It can even search outside of the scope of your project if you want
+it to (every file on your computer). Thankfully it groups what it finds into categories, with the most
+recent files first.&lt;/p&gt;
+
+&lt;h4 id=&#34;search-for-commands&#34;&gt;Search for commands:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Command + Shift + A&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + Shift + A&lt;/strong&gt; (Windows, Linux)
+This searches for any command. If you know there is a way to jump to the next error in your code but you
+can&amp;rsquo;t remember what it is, just use this command and start typing &amp;ldquo;error&amp;rdquo; and it will intelligently find
+it. This works for any command. If you only want to memorize one shortcut, this is the one.&lt;/p&gt;
+
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+
+&lt;p&gt;Here are a few more ways to keep your hands off the mouse and still get around your project quickly.&lt;/p&gt;
+
+&lt;h4 id=&#34;jump-to-class&#34;&gt;Jump to Class&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Command + O&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + N&lt;/strong&gt; (Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;jump-to-file&#34;&gt;Jump to File&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Command + Shift + O&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + Shift + N&lt;/strong&gt; (Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;jump-to-method&#34;&gt;Jump to Method&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Control + Up/Down&lt;/strong&gt; (Mac)
+&lt;strong&gt;Alt + Up/Down&lt;/strong&gt; (Windows, Linux)
+Up is the previous method, down is the next method.&lt;/p&gt;
+
+&lt;h3 id=&#34;editing-code&#34;&gt;Editing Code&lt;/h3&gt;
+
+&lt;p&gt;This is the one we try to spend the most time on, and even though searching for the correct command is
+easy with the shortcut above, it is still quicker to memorize these shortcuts and add them to our
+workflow. These will really help you get &lt;em&gt;past&lt;/em&gt; the editor and focus only on the editing.&lt;/p&gt;
+
+&lt;h4 id=&#34;auto-completion&#34;&gt;Auto-Completion&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Tab&lt;/strong&gt; (Mac, Windows, Linux)
+&lt;strong&gt;Enter&lt;/strong&gt; (Mac, Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;comments&#34;&gt;Comments&lt;/h4&gt;
+
+&lt;p&gt;Single Line Comment
+&lt;strong&gt;Command + /&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + /&lt;/strong&gt; (Windows, Linux)
+Multi Line Comment
+&lt;strong&gt;Command + Alt + /&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + Shift + /&lt;/strong&gt; (Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;show-parameters&#34;&gt;Show Parameters&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Command + p&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + p&lt;/strong&gt; (Windows, Linux)
+This one is useful if you can&amp;rsquo;t remember what parameters a method takes.&lt;/p&gt;
+
+&lt;h4 id=&#34;refactoring&#34;&gt;Refactoring&lt;/h4&gt;
+
+&lt;p&gt;Renaming a variable/method/class etc.
+&lt;strong&gt;Shift + F6&lt;/strong&gt; (Mac)
+&lt;strong&gt;Control + F6&lt;/strong&gt; (Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;intelligent-code-generation&#34;&gt;Intelligent Code Generation&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Command + N&lt;/strong&gt; (Mac)
+&lt;strong&gt;Alt + Insert&lt;/strong&gt; (Windows, Linux)&lt;/p&gt;
+
+&lt;h4 id=&#34;live-templates&#34;&gt;Live Templates&lt;/h4&gt;
+
+&lt;p&gt;There are dozens of these available by default, and the great thing about Android Studio is that you
+have the freedom to create more if you wish. If you don&amp;rsquo;t know what live templates are, they are
+boilerplate sections of code that gets automatically inserted for you. All you have to do is tab through
+to fill in the variable values.&lt;/p&gt;
+
+&lt;p&gt;A commonly used one is &amp;ldquo;Toast&amp;rdquo;. You type &amp;ldquo;Toast&amp;rdquo; and hit &lt;strong&gt;Tab&lt;/strong&gt; and it automatically gives you this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Toast.makeText(MainActivity.this, &amp;quot;&amp;quot;, Toast.LENGTH_SHORT).show();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you hit &lt;strong&gt;Tab&lt;/strong&gt; a second time it moves the cursor over to the quotation marks so you can type your
+message, and if you hit &lt;strong&gt;Tab&lt;/strong&gt; one more time it moves your cursor to the end of the line.&lt;/p&gt;
+
+&lt;p&gt;Another common one is to type &amp;ldquo;fori&amp;rdquo; and hit &lt;strong&gt;Tab&lt;/strong&gt;. That gives you this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for(i = 0; i &amp;lt; ; i++){
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course tabbing through allows you to modify the variable name, value, loop length, and finally it
+drops you inside the curly brackets to write the code to be executed.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned there are dozens more and you can create your own. To find all the live templates
+included just search everywhere with &lt;strong&gt;Shift Shift&lt;/strong&gt; and type &amp;ldquo;Live Templates&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Thank you for reading this. I hope some of these tricks will help you become a better and faster
+developer. If you want the full and overwhelming list of shortcuts for Android Studio you can check out
+the list &lt;a href=&#34;https://developer.android.com/studio/intro/keyboard-shortcuts.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, please follow me on twitter &lt;a href=&#34;https://www.twitter.com/hoffmanryan1&#34;&gt;@hoffmanryan1&lt;/a&gt; and on
+medium &lt;a href=&#34;https://www.medium.com/@rmhcompanies&#34;&gt;@rmhcompaines&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android Constraint Layout</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/15/constraint-layout/</link>
+      <pubDate>Tue, 15 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/15/constraint-layout/</guid>
+      <description>
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;There are many different views and view groups in the Android infrastructure. Some are more useful than
+others, but they all have their place. Recently, Google released a new layout called ConstraintLayout.&lt;/p&gt;
+
+&lt;p&gt;This is still in alpha release stage but it looks very promising. This isn&amp;rsquo;t going to be a tutorial on how
+to use it, rather, it&amp;rsquo;s just my thoughts and opinions on the concept and implementation. Keep in mind I
+have only been messing around with it for a couple of weeks, so my opinion could change as they update and
+improve it.&lt;/p&gt;
+
+&lt;h3 id=&#34;initial-thoughts&#34;&gt;Initial Thoughts&lt;/h3&gt;
+
+&lt;p&gt;When I first heard about ConstraintLayout before I even tried it out I thought it sounded like a rip off
+of iOS UI builder in xcode. After learning more about it and using it a little bit I still kind of feel
+that way. That&amp;rsquo;s not to say it&amp;rsquo;s a bad thing, but even if it wasn&amp;rsquo;t copied directly from Apple it was at
+least &lt;em&gt;heavily&lt;/em&gt; inspired by xcode. My initial reaction to this was to not like it. At all. I can stumble
+my way through iOS development, but I&amp;rsquo;m not nearly as comfortable with iOS as I am with Android. And my
+limited experience with the UI Builder in xcode is not good. I found it a little bit difficult to use and
+setting constraints was hard to come to grips with coming from XML layouts in Android. Then Android was
+switching to ConstraintLayout to mimic iOS? Not a big fan of that idea.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know what ConstraintLayout is, you can get more details about it
+&lt;a href=&#34;https://developer.android.com/training/constraint-layout/index.html&#34;&gt;here&lt;/a&gt;. Basically you drag views and
+widgets onto the design screen and then set &amp;ldquo;constraints&amp;rdquo; that tell where each view should be positioned
+relative to everything else on the screen. The purpose of it is to flatten the hierarchy of the view tree.
+Instead of nesting LinearLayout&amp;rsquo;s and RelativeLayout&amp;rsquo;s trying to position everything properly, this allows
+you to position everything relative to whatever you need to in order to lay it all out properly. It is
+supposed to help improve performance and make it scale across different screen sizes easier. I have not
+tested performance or scalability so I don&amp;rsquo;t know if it is actually better in those regards. If you run
+any tests please let me know the results, I&amp;rsquo;ll add them here and credit you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/layout-editor.png&#34; style=&#34;width: 100%; height: 100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;after-using-it-to-design-screens&#34;&gt;After Using it to Design Screens&lt;/h2&gt;
+
+&lt;p&gt;I decided to give it the benefit of the doubt and it appeared to be the future of Android development so I
+figured I needed to get on board. Using it was definitely weird at first, but after a while of making
+different layouts I started to get used to it a little bit. Sometimes it was a little buggy, but that&amp;rsquo;s to
+be expected from an alpha version.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s going to take some getting used to, but it looks promising. There are a few things I liked, and of
+course plenty that I didn&amp;rsquo;t.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-good&#34;&gt;The Good&lt;/h3&gt;
+
+&lt;p&gt;Overall the experience is good. Setting constraints is as easy as click and drag, and it is pretty
+intelligent on knowing what you are trying to do. Linking views together is pretty simple, and pinning a
+view to an edge or margin is also straightforward.&lt;/p&gt;
+
+&lt;p&gt;I also like that as you make changes in the editor you can still switch over to the XML and see what is
+actually changing, and if you really want you could make changes directly to the XML.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-not-so-good&#34;&gt;The Not So Good&lt;/h3&gt;
+
+&lt;p&gt;When editing the screens there are 2 screens shown, one is the blueprint screen and one is the design
+screen. The blueprint screen is meant for editing and adding constraints, while the design screen is meant
+as a actual preview of what is on the screen, content and all. My problem is that you can edit constraints
+(or anything really) on the design screen. It causes some bugs and issues with the layout preview, and
+it&amp;rsquo;s just overall confusing. I wish they only allowed editing in the blueprint mode and the preview was
+exactly that, just a preview. Perhaps in a future release they will make that change.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;It is still going to take some getting used to, but I see this as the future of Android design and
+development and I really am excited about what Google is going to add down the road. I&amp;rsquo;m going to
+continue to use it and learn more about it and perhaps start actually using it in projects here soon. At
+it&amp;rsquo;s current stage I don&amp;rsquo;t think it is production ready, but that could change with a new release. I&amp;rsquo;ll
+keep this updated as new versions come out and I learn more about it. If I get more comfortable with it I
+may even write a tutorial.&lt;/p&gt;
+
+&lt;p&gt;As always, please follow me on twitter &lt;a href=&#34;https://www.twitter.com/hoffmanryan1&#34;&gt;@hoffmanryan1&lt;/a&gt; and on medium
+&lt;a href=&#34;https://www.medium.com/@rmhcompanies&#34;&gt;@rmhcompaines&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development: Native vs Cross-Platform</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/01/mobile-native-vs-cross-platform/</link>
+      <pubDate>Tue, 01 Nov 2016 13:07:31 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/01/mobile-native-vs-cross-platform/</guid>
+      <description>
+
+&lt;h3 id=&#34;should-you-even-develop-for-mobile&#34;&gt;Should You Even Develop for Mobile?&lt;/h3&gt;
+
+&lt;p&gt;In a word, yes. Mobile development is growing to be more and more important every single year. Every day
+people spend more time on their phones, tablets and other mobile devices. As of
+&lt;a href=&#34;https://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/&#34;&gt;June 2016&lt;/a&gt;
+there are over 2.2 million apps available in the Play Store and over 2 million in the App Store.
+&lt;a href=&#34;http://www.digitaltrends.com/mobile/informate-report-social-media-smartphone-use/&#34;&gt;This article&lt;/a&gt; from
+back in 2015 says that the average American spends 4.7 hours &lt;em&gt;per day&lt;/em&gt; on their phone! That&amp;rsquo;s nearly a
+third of our waking hours each day! If you want some of that screen time to be dedicated to your app then
+you better think very carefully about what type of app you want to deliver to your users. So what will it
+be, native or cross-platform?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/mobile-development.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-case-for-native-apps&#34;&gt;The Case for Native Apps&lt;/h3&gt;
+
+&lt;p&gt;Native apps, generally speaking, offer a better experience when compared to a similarly developed
+cross-platform app. This isn&amp;rsquo;t always true, and it definitely doesn&amp;rsquo;t mean that you should only choose to
+launch native apps. These are a few reasons why you should consider going native.&lt;/p&gt;
+
+&lt;p&gt;Native apps are designed to be platform specific, so they feel more comfortable for the user. This is
+incredibly important because &lt;a href=&#34;http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/?utm_content=buffere4fa2&amp;amp;utm_medium=twitter.com&amp;amp;utm_source=social&amp;amp;utm_campaign=buffer&#34;&gt;77% of users will delete your app&lt;/a&gt;
+within 72 hours of downloading it. That number will only go up if the design is not familiar and
+comfortable for your users. On Android, Google have created Material Design as the standard. Most of the
+popular apps in the Play Store have already shifted to conform to this style, and it has become normal for
+Android users. On iOS, Apple have their own design guidelines that is different from Material Design.
+There are certain navigation patterns that are different and other animations and visual queues that might
+mean something different on each platform. By developing a native app for each os you can bring the little
+things from the design standards out and make your app easier and more enjoyable for your users.&lt;/p&gt;
+
+&lt;p&gt;Another big bonus for native apps is the increased performance you get from them. When developing for
+Android, an app written in Java will &lt;em&gt;almost&lt;/em&gt; always be faster than one developed in Javascript or some
+other web language. The same goes for iOS apps written in Swift or Objective-C; they will &lt;em&gt;almost&lt;/em&gt; always
+be faster than their cross-platform counterparts. This is because the APIs are developed in the native
+language by Google or Apple. Usually cross-platform apps are developed using Javascript or a language
+that compiles to Javascript, and the large libraries and other code can end up running much slower on
+the phone or tablet than well developed native code.&lt;/p&gt;
+
+&lt;p&gt;Certain hardware related features like gestures, multi-touch, and various other sensor related components
+like GPS, accelerometer and gyroscope are simpler to access and use in native apps. Most of the time
+there are very straight forward APIs or libraries that allow access to these components. These are more
+advanced functionalities and might not be necessary in all apps, but it is important to keep in mind when
+deciding what is right for you and your idea.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-case-for-cross-platform&#34;&gt;The Case for Cross-Platform&lt;/h3&gt;
+
+&lt;p&gt;Cross-platform apps are easier to create and can cut down your development time significantly. The main
+selling point here is that you have a single code base to maintain for all users on all operating systems.
+The idea here is that you create one app, which is then optimized and packaged properly for each platform
+and published in each marketplace.&lt;/p&gt;
+
+&lt;p&gt;After reading the section about native apps and seeing all the features and speed you might be thinking
+that&amp;rsquo;s the way to go, but I challenge you to think about this. You have an idea for an app, maybe you
+have a website and you want to take it a step further and turn it into a full on app. You already have
+the website to maintain, all the code that goes along with it, and the headaches from hosting it. Now you
+decide to make apps for Android and iOS. Maybe you are a code ninja and already know Java and Swift, so
+that saves you time and money because you don&amp;rsquo;t have to learn new technology or hire a freelancer to do
+it for you. But you start writing the iOS app first and after a couple weeks it is ready to publish, but
+you don&amp;rsquo;t want to launch it without the Android app also. So you sit down and bang out that app in a
+couple more weeks. Now both are ready to go so you submit them to their respective app stores. The good
+news is they look great and are blazing fast, but now every time you want to make a change to your
+website you have three different apps in three different code bases to maintain and update. Then a few
+of your crazy followers get the new Windows phone and are still on the mobile version of your site
+because no app exists for them. What now?&lt;/p&gt;
+
+&lt;p&gt;Now contrast this with a cross-platform app. You can use most if not all of your existing Javascript
+from your website when creating the app. Once development is complete you can optimize the code for each
+platform and publish to each app store. Every time you want to make a change to your website you can make
+the changes to the app code also and everything will look great and up to date across all platforms. If
+you have users with Windows Phone or Firefox OS or anything else you can use the same code to publish to
+their app stores and have good looking apps for them too.&lt;/p&gt;
+
+&lt;p&gt;So what&amp;rsquo;s the catch? What you gain in simplicity you will lose in functionality. There may be a trade off
+in speed as well although I doubt it if you are simply converting a website into a web app. The biggest
+drawback will be trying to implement new features and meet the design standards of each platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ryanmhoffman.github.io/img/banners/mobile-development-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;which-is-right-for-you&#34;&gt;Which Is Right For You?&lt;/h3&gt;
+
+&lt;p&gt;This is a question that you are going to have to answer for yourself. If your idea is something small and
+simple like converting your website into an app then cross-platform might be the way to go for you. Other
+things like tip calculators and simple note taking apps usually have simple UI&amp;rsquo;s and are good candidates
+for cross-platform apps. More complex apps that rely on sensors in the phone or things like multi-touch
+are probably better off as native apps.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day you need to evaluate your business or your idea and decide which choice is right
+for you. Making a list of required features is a great way to see exactly what will be involved in
+development and will probably make the decision much easier for you. Remember that there is no &amp;ldquo;right&amp;rdquo;
+answer and even if you start out with a simple cross-platform app you can always scale up to a native app
+and update from there. Good luck and happy developing!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
