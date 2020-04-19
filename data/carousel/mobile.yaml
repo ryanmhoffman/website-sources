@@ -3,8 +3,11 @@ title: "Mobile App Developer"
 description: >
   <ul class="list-style-none">
      <li>Custom apps</li>
+     <li>Native Development</li>
      <li>Android</li>
      <li>iOS</li>
-     <li>Native development</li>
+     <li>Cross Platform Development</li>
+     <li>React Native</li>
+     <li>Flutter</li>
    </ul>
 image: "img/carousel/mobile-apps.jpg"

@@ -1,5 +1,5 @@
 baseurl = "https://ryanmhoffman.github.io/"
-title = "Ryan M. Hoffman"
+title = "Provision Software LLC"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -33,10 +33,10 @@ paginate = 10
     email = "rmh.software@gmail.com"
 
     about_us = "<p>Ryan M. Hoffman is a freelance mobile app developer, web developer and blogger.</p>"
-    copyright = "Copyright (c) 2016 - 2018 RMH Companies; all rights reserved."
+    copyright = "Copyright (c) 2016 - 2020 Provision Software LLC; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
-    address = """<p><strong>RMH Companies</strong>
+    address = """<p><strong>Provision Software LLC</strong>
         <br>2131 36th St. NW
         <br>Canton, OH 44709
         <br><strong>United States</strong>

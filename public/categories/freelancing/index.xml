@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan M. Hoffman</title>
+    <link>https://ryanmhoffman.github.io/categories/freelancing/index.xml</link>
+    <description>Recent content on Ryan M. Hoffman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 - 2018 RMH Companies; all rights reserved.</copyright>
+    <atom:link href="https://ryanmhoffman.github.io/categories/freelancing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RMH Trucking Sample Site</title>
+      <link>https://ryanmhoffman.github.io/blog/2018/06/05/rmh-trucking/</link>
+      <pubDate>Tue, 05 Jun 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2018/06/05/rmh-trucking/</guid>
+      <description>
+
+&lt;h1 id=&#34;rmh-trucking-small-sample-site&#34;&gt;RMH Trucking Small Sample Site&lt;/h1&gt;
+
+&lt;p&gt;I recently decided to change up my focus a little bit from &amp;ldquo;Android Development&amp;rdquo; or even more general with &amp;ldquo;Mobile Development&amp;rdquo;
+and focus on web development. I decided that I was going to try solve a problem I am very familiar with, terrible or non-existing
+websites for trucking companies. Even more specifically than that, websites that are outdated and not mobile friendly for
+trucking companies that specialize in liquid bulk transportation. I got the idea from
+&lt;a href=&#34;https://entrepreneurs.maqtoob.com/how-to-get-jobs-on-freelance-sites-even-if-you-have-zero-experience-6df6a660ff1b&#34;&gt;this article&lt;/a&gt;
+that you can check out, but it basically says to be highly specialized instead of highly generalized in order to better compete
+as a freelancer. That is when I realized that I am intimately familiar with trucking companies and many have terrible or no websites.&lt;/p&gt;
+
+&lt;p&gt;I created RMH Trucking as a sample of what I can do. It is called RMH Trucking Small because it is the &amp;ldquo;small&amp;rdquo; offering I have.
+I will also be creating a RMH Trucking Medium and RMH Trucking Large for those companies looking for more comprehensive sites.
+For now you can check out &lt;a href=&#34;https://ryanmhoffman.github.io/RMHTruckingSmall&#34;&gt;RMH Trucking Small here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-importance&#34;&gt;The Importance&lt;/h3&gt;
+
+&lt;p&gt;This site and the others once created will offer a look and design like they are modern, but they will more importantly scale
+well for mobile devices. The most common thing I see is a slightly outdated desktop site that isn&amp;rsquo;t terrible, but on mobile
+it becomes completely unusable. My sites will be completely mobile friendly, look great, and will be customizable to match
+the brand of any company. Also, they will be optomized to rank highly in search engines so potential new customers and
+drivers can find the company and easily get in contact with them.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I will come back and update this with the other sample sites once they are created, so stay tuned for those updates. If you
+are looking to have a site built or redesigned for your trucking company (or any other company), feel free to
+&lt;a href=&#34;https://ryanmhoffman.github.io/contact/&#34;&gt;contact&lt;/a&gt; me for more details!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
