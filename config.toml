@@ -12,7 +12,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "Ryan M. Hoffman"
+    author = "Provision Software LLC"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "blue"
@@ -32,7 +32,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "rmh.software@gmail.com"
 
-    about_us = "<p>Ryan M. Hoffman is a freelance mobile app developer, web developer and blogger.</p>"
+    about_us = "<p>Provision Software LLC is a software development company specializing in mobile app development, web development and blogging.</p>"
     copyright = "Copyright (c) 2016 - 2020 Provision Software LLC; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
@@ -98,9 +98,9 @@ paginate = 10
     enable = true
     icon = "fa fa-file-code-o"
     title = "Want to know more?"
-    subtitle = "Whether you need an app or website built, updated, or you just want to learn more, I would love to hear from you."
+    subtitle = "Whether you need an app or website built, updated, or you just want to learn more, we would love to hear from you."
     link_url = "/contact/"
-    link_text = "Contact Me"
+    link_text = "Contact Us"
 
 [params.clients]
     enable = false
@@ -115,10 +115,10 @@ paginate = 10
     # All social links are defined in their own files. You can find example items
     # at 'exampleSite/data/social'.
     # For more information take a look at the README.
-    title = "Follow Me"
+    title = "Follow Us"
     subtitle = ""
 
 [params.recent_posts]
     enable = true
-    title = "From my blog"
-    subtitle = "Here are a few of my most recent posts from my tech blog. Most of my posts are on Android development, but you will find other tech related topics from iOS to web development to linux, etc."
+    title = "From our blog"
+    subtitle = "Here are a few of our most recent posts from our tech blog. Most of our posts are on mobile app development, but you will find other tech related topics from native Android and iOS to cross-platform development to web development and even linux, etc."
