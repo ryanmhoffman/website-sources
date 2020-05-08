@@ -1,4 +1,4 @@
-baseurl = "https://ryanmhoffman.github.io/"
+baseurl = "https://www.provision-software.com"
 title = "Provision Software LLC"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -30,7 +30,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "rmh.software@gmail.com"
+    email = "ryan@provision-software.com"
 
     about_us = "<p>Provision Software LLC is a software development company specializing in mobile app development, web development and blogging.</p>"
     copyright = "Copyright (c) 2016 - 2020 Provision Software LLC; all rights reserved."
