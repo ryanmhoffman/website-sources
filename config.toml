@@ -72,7 +72,29 @@ paginate = 10
 [params.widgets]
     categories = true
     tags = true
-    search = false
+    search = true
+
+[params.topbar]    
+    enable = true
+    text = "<p>Contact us at ryan@provision-software.com</p>"
+
+[[menu.topbar]]
+    weight = 1
+    name = "Github"
+    url = "https://github.com/provision-software"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Twitter"
+    url = "https://twitter.com/ProvisionSoftw1"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Medium"
+    url = "https://medium.com/@provision_software"
+    pre = "<i class='fab fa-2x fa-medium'></i>"
 
 [params.carousel]
     enable = true
@@ -96,7 +118,7 @@ paginate = 10
 
 [params.see_more]
     enable = true
-    icon = "fa fa-file-code-o"
+    icon = "fas fa-file-alt"
     title = "Want to know more?"
     subtitle = "Whether you need an app or website built, updated, or you just want to learn more, we would love to hear from you."
     link_url = "/contact/"
