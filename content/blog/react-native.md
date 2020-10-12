@@ -3,7 +3,7 @@ title = "Can React Native compare and compete with true native code?"
 date = "2018-01-28T13:47:08+02:00"
 tags = ["React Native", "Android", "Development", "iOS"]
 categories = ["Development", "Mobile"]
-banner = "img/banners/Vimlogo.svg"
+banner = "img/banners/android-logo.png"
 author = "Ryan M. Hoffman"
 +++
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freelancing on Provision Software LLC</title>
+    <link>https://ryanmhoffman.github.io/tags/freelancing/</link>
+    <description>Recent content in Freelancing on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://ryanmhoffman.github.io/tags/freelancing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RMH Trucking Sample Site</title>
+      <link>https://ryanmhoffman.github.io/blog/2018/06/05/rmh-trucking/</link>
+      <pubDate>Tue, 05 Jun 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2018/06/05/rmh-trucking/</guid>
+      <description>RMH Trucking Small Sample Site I recently decided to change up my focus a little bit from &amp;ldquo;Android Development&amp;rdquo; or even more general with &amp;ldquo;Mobile Development&amp;rdquo; and focus on web development. I decided that I was going to try solve a problem I am very familiar with, terrible or non-existing websites for trucking companies. Even more specifically than that, websites that are outdated and not mobile friendly for trucking companies that specialize in liquid bulk transportation.</description>
+    </item>
+    
+  </channel>
+</rss>

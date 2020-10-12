@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on Provision Software LLC</title>
+    <link>https://ryanmhoffman.github.io/tags/vim/</link>
+    <description>Recent content in Vim on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Dec 2017 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://ryanmhoffman.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nearly 8 Months with Vim</title>
+      <link>https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/</link>
+      <pubDate>Wed, 27 Dec 2017 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2017/12/27/update-on-vim/</guid>
+      <description>How I Feel About Vim Now Introduction This post is a follow up on a post I wrote several months ago about my starting point with Vim. If you missed that post, you can read it here. That details how and when I started with Vim nearly 8 months ago. Now it is an integral part of my workflow. It is my only text editor, and I don&amp;rsquo;t know how I lived without it before.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Vim</title>
+      <link>https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/</link>
+      <pubDate>Fri, 28 Apr 2017 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2017/04/28/getting-started-with-vim/</guid>
+      <description>Getting Started with Vim Introduction The title of this article might be misleading a little bit, but this is not a tutorial about how to get started with Vim. It is in fact a small post about my decision to get started with Vim. I recently made the decision to start using Vim as my main (read only) editor. I decided that I&amp;rsquo;m going to give it a try for 37 days, and after that I will see if I like it and if it makes me any more productive than with my current editor.</description>
+    </item>
+    
+  </channel>
+</rss>

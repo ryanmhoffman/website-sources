@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React Native on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/react-native/</link>
+    <description>Recent content in React Native on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/react-native/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Can React Native compare and compete with true native code?</title>
+      <link>http://www.provision-software.com/blog/2018/01/28/react-native/</link>
+      <pubDate>Sun, 28 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2018/01/28/react-native/</guid>
+      <description>Why Write this Article? Great question, I&amp;rsquo;m glad you asked! First, let me say that this is NOT going to be a benchmarking article to compare numbers and load times or anything like that. This article is going to be a look into whether a developer who currently works using native code for either or both mobile platforms should consider React Native. I am writing this article because that is the position I find myself in currently.</description>
+    </item>
+    
+  </channel>
+</rss>

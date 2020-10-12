@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Development on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/mobile-development/</link>
+    <description>Recent content in Mobile Development on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Nov 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Studio Keyboard Shortcuts</title>
+      <link>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</link>
+      <pubDate>Mon, 21 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</guid>
+      <description>Android Studio Shortcuts If you have used Android Studio for even a short time I&amp;rsquo;m sure you have found some shortcuts and hot keys to speed up your coding and keep your hands on the keyboard where they belong! I&amp;rsquo;m going to run through some of the shortcuts I find most useful. Android Studio is built by Google, but it is based on Jetbrains Intellij Community Edition Java IDE. This means that all of the Intellij shortcut keys work on Android Studio, but Google have added a few of their own.</description>
+    </item>
+    
+    <item>
+      <title>Android Constraint Layout</title>
+      <link>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</link>
+      <pubDate>Tue, 15 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</guid>
+      <description>Overview There are many different views and view groups in the Android infrastructure. Some are more useful than others, but they all have their place. Recently, Google released a new layout called ConstraintLayout.
+This is still in alpha release stage but it looks very promising. This isn&amp;rsquo;t going to be a tutorial on how to use it, rather, it&amp;rsquo;s just my thoughts and opinions on the concept and implementation. Keep in mind I have only been messing around with it for a couple of weeks, so my opinion could change as they update and improve it.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development: Native vs Cross-Platform</title>
+      <link>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</link>
+      <pubDate>Tue, 01 Nov 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</guid>
+      <description>Should You Even Develop for Mobile? In a word, yes. Mobile development is growing to be more and more important every single year. Every day people spend more time on their phones, tablets and other mobile devices. As of June 2016 there are over 2.2 million apps available in the Play Store and over 2 million in the App Store. This article from back in 2015 says that the average American spends 4.</description>
+    </item>
+    
+  </channel>
+</rss>

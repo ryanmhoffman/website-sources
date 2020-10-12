@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps on Provision Software LLC</title>
+    <link>https://ryanmhoffman.github.io/tags/apps/</link>
+    <description>Recent content in Apps on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Nov 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://ryanmhoffman.github.io/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CBT Velocity Android App</title>
+      <link>https://ryanmhoffman.github.io/blog/2016/11/02/velocity-android-app/</link>
+      <pubDate>Wed, 02 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>https://ryanmhoffman.github.io/blog/2016/11/02/velocity-android-app/</guid>
+      <description>The Idea This app was created for high school students. Specifically, the high school students in my church, Canton Baptist Temple, who are a part of the youth group which is called - as you might have guessed, Velocity. The thinking behind this is pretty simple and makes a lot of sense if you have ever spent any time around high school students. The issue is that no matter how many times you tell them something, they still have no idea what you said - unless you put it right in front of them on their phone.</description>
+    </item>
+    
+  </channel>
+</rss>

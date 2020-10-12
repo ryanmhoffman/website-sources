@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Provision Software LLC</title>
+    <link>http://www.provision-software.com/categories/</link>
+    <description>Recent content in Categories on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development</title>
+      <link>http://www.provision-software.com/categories/development/</link>
+      <pubDate>Sun, 28 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://www.provision-software.com/categories/mobile/</link>
+      <pubDate>Sun, 28 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://www.provision-software.com/categories/android/</link>
+      <pubDate>Wed, 01 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>http://www.provision-software.com/categories/web-development/</link>
+      <pubDate>Thu, 03 Nov 2016 21:49:20 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile-Development</title>
+      <link>http://www.provision-software.com/categories/mobile-development/</link>
+      <pubDate>Tue, 01 Nov 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/categories/mobile-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/programming/</link>
+    <description>Recent content in Programming on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Friends Android App</title>
+      <link>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</link>
+      <pubDate>Tue, 20 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</guid>
+      <description>Friends Android App Friends is an Android app I am currently developing with a planned release in early January 2017. The app is a short-list version of the stock contacts app. Friends pulls in only your starred contacts and gives you easy access to call or text them. It is supposed to be sort of like a speed dial, but for all your favorites instead of just one, and all in one place.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio Libraries With Gradle</title>
+      <link>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</link>
+      <pubDate>Thu, 01 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</guid>
+      <description>Using Libraries in Android Studio Intro to Gradle for Android Studio Android Studio switched to a gradle based build system a few years ago, and that made it very simple to incorporate open source libraries your Android projects. If you aren&amp;rsquo;t familiar with gradle you can learn more about it here. The details of gradle recipes are beyond the scope of this post, but I will show the very basics of including libraries in your project.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio Keyboard Shortcuts</title>
+      <link>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</link>
+      <pubDate>Mon, 21 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</guid>
+      <description>Android Studio Shortcuts If you have used Android Studio for even a short time I&amp;rsquo;m sure you have found some shortcuts and hot keys to speed up your coding and keep your hands on the keyboard where they belong! I&amp;rsquo;m going to run through some of the shortcuts I find most useful. Android Studio is built by Google, but it is based on Jetbrains Intellij Community Edition Java IDE. This means that all of the Intellij shortcut keys work on Android Studio, but Google have added a few of their own.</description>
+    </item>
+    
+    <item>
+      <title>Android Constraint Layout</title>
+      <link>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</link>
+      <pubDate>Tue, 15 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</guid>
+      <description>Overview There are many different views and view groups in the Android infrastructure. Some are more useful than others, but they all have their place. Recently, Google released a new layout called ConstraintLayout.
+This is still in alpha release stage but it looks very promising. This isn&amp;rsquo;t going to be a tutorial on how to use it, rather, it&amp;rsquo;s just my thoughts and opinions on the concept and implementation. Keep in mind I have only been messing around with it for a couple of weeks, so my opinion could change as they update and improve it.</description>
+    </item>
+    
+  </channel>
+</rss>

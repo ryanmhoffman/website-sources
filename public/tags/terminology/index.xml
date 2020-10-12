@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminology on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/terminology/</link>
+    <description>Recent content in Terminology on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/terminology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Terminology Overview</title>
+      <link>http://www.provision-software.com/blog/2017/03/01/android-terminology/</link>
+      <pubDate>Wed, 01 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2017/03/01/android-terminology/</guid>
+      <description>Android Unit of Measure Terminology Have you ever wondered why there are so many different units of measurement in the Android architecture? There is dp, dip, sp, px, pt, in and mm. Below I will run through what each one is and what their purpose is within the Android framework.
+PX &amp;lt;View android:layout_width:&amp;quot;50px&amp;quot; android:layout_height:&amp;quot;wrap_content&amp;quot; /&amp;gt; In Android, px is short for pixels. It corresponds to actual pixels on the screen. In this example the view would be exactly 50 pixels wide.</description>
+    </item>
+    
+  </channel>
+</rss>

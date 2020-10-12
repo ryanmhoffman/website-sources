@@ -10,11 +10,11 @@ Yes! I can build you a brand new website that will look great on any screen, fro
 
 ## 2. CAN YOU MAKE AN APP FOR ME?
 
-Yes! I am currently focused on building Android apps, but if you have an idea and it needs to run both I can build a version for iPhone as well. If you need an app for your business or you have a great idea for a new app but you don't have the experience to build it, lets partner!
+Yes! I can create apps that look beautiful and run amazingly on both android and iOS. If you need an app for your business or you have a great idea for a new app but you don't have the experience to build it, [lets partner](/contact/)!
 
 ## 3. WILL YOU SHARE MY IDEA WITH ANYONE?
 
-Absolutely not. If you come to me with an idea for an app or website idea I will never share it with anyone. I respect your ideas as your property, and even if we don't end up working together on that idea I will never share it with anyone.
+Absolutely not. If you come to me with an idea for an app or website idea I will never share it with anyone. I respect your ideas as your property, and even if we don't end up working together on that idea I will never share it with anyone. To that end I am always willing to sign a non-disclosure agreement for additional protection of your ideas.
 
 ## 4. WHAT ARE YOUR RATES?
 

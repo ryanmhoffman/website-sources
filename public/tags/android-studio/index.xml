@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Studio on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/android-studio/</link>
+    <description>Recent content in Android Studio on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/android-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Studio Libraries With Gradle</title>
+      <link>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</link>
+      <pubDate>Thu, 01 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</guid>
+      <description>Using Libraries in Android Studio Intro to Gradle for Android Studio Android Studio switched to a gradle based build system a few years ago, and that made it very simple to incorporate open source libraries your Android projects. If you aren&amp;rsquo;t familiar with gradle you can learn more about it here. The details of gradle recipes are beyond the scope of this post, but I will show the very basics of including libraries in your project.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio Keyboard Shortcuts</title>
+      <link>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</link>
+      <pubDate>Mon, 21 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</guid>
+      <description>Android Studio Shortcuts If you have used Android Studio for even a short time I&amp;rsquo;m sure you have found some shortcuts and hot keys to speed up your coding and keep your hands on the keyboard where they belong! I&amp;rsquo;m going to run through some of the shortcuts I find most useful. Android Studio is built by Google, but it is based on Jetbrains Intellij Community Edition Java IDE. This means that all of the Intellij shortcut keys work on Android Studio, but Google have added a few of their own.</description>
+    </item>
+    
+  </channel>
+</rss>

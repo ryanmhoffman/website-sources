@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/app/</link>
+    <description>Recent content in App on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Friends Android App</title>
+      <link>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</link>
+      <pubDate>Tue, 20 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</guid>
+      <description>Friends Android App Friends is an Android app I am currently developing with a planned release in early January 2017. The app is a short-list version of the stock contacts app. Friends pulls in only your starred contacts and gives you easy access to call or text them. It is supposed to be sort of like a speed dial, but for all your favorites instead of just one, and all in one place.</description>
+    </item>
+    
+  </channel>
+</rss>

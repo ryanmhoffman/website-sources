@@ -1,14 +1,41 @@
-baseurl = "https://www.provision-software.com"
+baseurl = "http://www.provision-software.com/"
+#baseurl = "https://ryanmhoffman.github.io/"
 title = "Provision Software LLC"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-8G3XZ8K4VL"
 
 # Define the number of posts per page
 paginate = 10
+
+[menu]
+
+[[menu.main]]
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier="blog"
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
 
 [params]
     viewMorePostLink = "/blog/"
@@ -33,7 +60,7 @@ paginate = 10
     email = "ryan@provision-software.com"
 
     about_us = "<p>Provision Software LLC is a software development company specializing in mobile app development, web development and blogging.</p>"
-    copyright = "Copyright (c) 2016 - 2020 Provision Software LLC; all rights reserved."
+    copyright = "Copyright (c) 2020 Provision Software LLC; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
     address = """<p><strong>Provision Software LLC</strong>
@@ -48,26 +75,6 @@ paginate = 10
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-[[params.menu]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[params.menu]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 2
-
-[[params.menu]]
-    name = "FAQ"
-    url  = "/faq/"
-    weight = 3
-
-[[params.menu]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 4
-
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = true
@@ -79,7 +86,7 @@ paginate = 10
     text = "<p>Contact us at ryan@provision-software.com</p>"
 
 [[menu.topbar]]
-    weight = 1
+    weight = 3
     name = "Github"
     url = "https://github.com/provision-software"
     pre = "<i class='fab fa-2x fa-github'></i>"
@@ -91,11 +98,17 @@ paginate = 10
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 3
+    weight = 4
     name = "Medium"
     url = "https://medium.com/@provision_software"
     pre = "<i class='fab fa-2x fa-medium'></i>"
 
+[[menu.topbar]]
+    weight = 1
+    name = "Facebook"
+    url = "https://www.facebook.com/provisionsoftwarellc"
+    pre = "<i class='fab fa-2x fa-facebook-f'></i>"
+    
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items

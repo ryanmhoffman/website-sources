@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/android/</link>
+    <description>Recent content in Android on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Can React Native compare and compete with true native code?</title>
+      <link>http://www.provision-software.com/blog/2018/01/28/react-native/</link>
+      <pubDate>Sun, 28 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2018/01/28/react-native/</guid>
+      <description>Why Write this Article? Great question, I&amp;rsquo;m glad you asked! First, let me say that this is NOT going to be a benchmarking article to compare numbers and load times or anything like that. This article is going to be a look into whether a developer who currently works using native code for either or both mobile platforms should consider React Native. I am writing this article because that is the position I find myself in currently.</description>
+    </item>
+    
+    <item>
+      <title>Android Terminology Overview</title>
+      <link>http://www.provision-software.com/blog/2017/03/01/android-terminology/</link>
+      <pubDate>Wed, 01 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2017/03/01/android-terminology/</guid>
+      <description>Android Unit of Measure Terminology Have you ever wondered why there are so many different units of measurement in the Android architecture? There is dp, dip, sp, px, pt, in and mm. Below I will run through what each one is and what their purpose is within the Android framework.
+PX &amp;lt;View android:layout_width:&amp;quot;50px&amp;quot; android:layout_height:&amp;quot;wrap_content&amp;quot; /&amp;gt; In Android, px is short for pixels. It corresponds to actual pixels on the screen. In this example the view would be exactly 50 pixels wide.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development: Native vs Cross-Platform</title>
+      <link>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</link>
+      <pubDate>Tue, 01 Nov 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</guid>
+      <description>Should You Even Develop for Mobile? In a word, yes. Mobile development is growing to be more and more important every single year. Every day people spend more time on their phones, tablets and other mobile devices. As of June 2016 there are over 2.2 million apps available in the Play Store and over 2 million in the App Store. This article from back in 2015 says that the average American spends 4.</description>
+    </item>
+    
+  </channel>
+</rss>

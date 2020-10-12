@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Design on Provision Software LLC</title>
+    <link>http://www.provision-software.com/tags/web-design/</link>
+    <description>Recent content in Web Design on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Nov 2016 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mobile Friendly Websites</title>
+      <link>http://www.provision-software.com/blog/2016/11/03/mobile-friendly-websites/</link>
+      <pubDate>Thu, 03 Nov 2016 21:49:20 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/03/mobile-friendly-websites/</guid>
+      <description>Why Should I Make My Website Mobile Friendly? Practically everyone is on a mobile phone now. As of 2016 there are 2.1 billion smartphone users. Even more impressive is more than 3 out of 4 people would choose to search the internet on their phone over a desktop computer even if they had easy access to a desktop computer. Why? It&amp;rsquo;s faster and easier. I have an old Moto X from 2013, the original one.</description>
+    </item>
+    
+    <item>
+      <title>Making This Website</title>
+      <link>http://www.provision-software.com/blog/2016/11/01/making-this-site/</link>
+      <pubDate>Tue, 01 Nov 2016 03:39:46 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/01/making-this-site/</guid>
+      <description>Introduction I built this website for a couple different purposes. I wanted a place to showcase my portfolio and direct potential clients for my freelance business. I also wanted to build a blog. I decided that the two ideas related enough to warrant being one site. I also wanted something simple that wouldn&amp;rsquo;t take weeks to create and be a nightmare to host. I did some research and settled on using hugo, a static site generator built with the go programming language by Google.</description>
+    </item>
+    
+  </channel>
+</rss>

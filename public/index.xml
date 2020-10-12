@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Provision Software LLC</title>
+    <link>http://www.provision-software.com/</link>
+    <description>Recent content on Provision Software LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.provision-software.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Can React Native compare and compete with true native code?</title>
+      <link>http://www.provision-software.com/blog/2018/01/28/react-native/</link>
+      <pubDate>Sun, 28 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2018/01/28/react-native/</guid>
+      <description>Why Write this Article? Great question, I&amp;rsquo;m glad you asked! First, let me say that this is NOT going to be a benchmarking article to compare numbers and load times or anything like that. This article is going to be a look into whether a developer who currently works using native code for either or both mobile platforms should consider React Native. I am writing this article because that is the position I find myself in currently.</description>
+    </item>
+    
+    <item>
+      <title>Android Terminology Overview</title>
+      <link>http://www.provision-software.com/blog/2017/03/01/android-terminology/</link>
+      <pubDate>Wed, 01 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2017/03/01/android-terminology/</guid>
+      <description>Android Unit of Measure Terminology Have you ever wondered why there are so many different units of measurement in the Android architecture? There is dp, dip, sp, px, pt, in and mm. Below I will run through what each one is and what their purpose is within the Android framework.
+PX &amp;lt;View android:layout_width:&amp;quot;50px&amp;quot; android:layout_height:&amp;quot;wrap_content&amp;quot; /&amp;gt; In Android, px is short for pixels. It corresponds to actual pixels on the screen. In this example the view would be exactly 50 pixels wide.</description>
+    </item>
+    
+    <item>
+      <title>Friends Android App</title>
+      <link>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</link>
+      <pubDate>Tue, 20 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/20/friends-android-app/</guid>
+      <description>Friends Android App Friends is an Android app I am currently developing with a planned release in early January 2017. The app is a short-list version of the stock contacts app. Friends pulls in only your starred contacts and gives you easy access to call or text them. It is supposed to be sort of like a speed dial, but for all your favorites instead of just one, and all in one place.</description>
+    </item>
+    
+    <item>
+      <title>Review of Github Projects</title>
+      <link>http://www.provision-software.com/blog/2016/12/06/github-projects-vs-trello/</link>
+      <pubDate>Tue, 06 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/06/github-projects-vs-trello/</guid>
+      <description>Github Projects vs Trello I didn&amp;rsquo;t hear about Github Projects until recently. Projects was designed to help teams organize their work and implement their own workflow directly within Github. The goal was to make it flexible and customizable so it could be useful for any workflow, team, or project, and to make it a part of Github so developers wouldn&amp;rsquo;t need a new tool to install and configure and so they wouldn&amp;rsquo;t have to leave Github.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio Libraries With Gradle</title>
+      <link>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</link>
+      <pubDate>Thu, 01 Dec 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/12/01/android-studio-libraries-with-gradle/</guid>
+      <description>Using Libraries in Android Studio Intro to Gradle for Android Studio Android Studio switched to a gradle based build system a few years ago, and that made it very simple to incorporate open source libraries your Android projects. If you aren&amp;rsquo;t familiar with gradle you can learn more about it here. The details of gradle recipes are beyond the scope of this post, but I will show the very basics of including libraries in your project.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio Keyboard Shortcuts</title>
+      <link>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</link>
+      <pubDate>Mon, 21 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/21/android-studio-shortcuts/</guid>
+      <description>Android Studio Shortcuts If you have used Android Studio for even a short time I&amp;rsquo;m sure you have found some shortcuts and hot keys to speed up your coding and keep your hands on the keyboard where they belong! I&amp;rsquo;m going to run through some of the shortcuts I find most useful. Android Studio is built by Google, but it is based on Jetbrains Intellij Community Edition Java IDE. This means that all of the Intellij shortcut keys work on Android Studio, but Google have added a few of their own.</description>
+    </item>
+    
+    <item>
+      <title>Android Constraint Layout</title>
+      <link>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</link>
+      <pubDate>Tue, 15 Nov 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/15/constraint-layout/</guid>
+      <description>Overview There are many different views and view groups in the Android infrastructure. Some are more useful than others, but they all have their place. Recently, Google released a new layout called ConstraintLayout.
+This is still in alpha release stage but it looks very promising. This isn&amp;rsquo;t going to be a tutorial on how to use it, rather, it&amp;rsquo;s just my thoughts and opinions on the concept and implementation. Keep in mind I have only been messing around with it for a couple of weeks, so my opinion could change as they update and improve it.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Friendly Websites</title>
+      <link>http://www.provision-software.com/blog/2016/11/03/mobile-friendly-websites/</link>
+      <pubDate>Thu, 03 Nov 2016 21:49:20 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/03/mobile-friendly-websites/</guid>
+      <description>Why Should I Make My Website Mobile Friendly? Practically everyone is on a mobile phone now. As of 2016 there are 2.1 billion smartphone users. Even more impressive is more than 3 out of 4 people would choose to search the internet on their phone over a desktop computer even if they had easy access to a desktop computer. Why? It&amp;rsquo;s faster and easier. I have an old Moto X from 2013, the original one.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development: Native vs Cross-Platform</title>
+      <link>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</link>
+      <pubDate>Tue, 01 Nov 2016 13:07:31 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/01/mobile-native-vs-cross-platform/</guid>
+      <description>Should You Even Develop for Mobile? In a word, yes. Mobile development is growing to be more and more important every single year. Every day people spend more time on their phones, tablets and other mobile devices. As of June 2016 there are over 2.2 million apps available in the Play Store and over 2 million in the App Store. This article from back in 2015 says that the average American spends 4.</description>
+    </item>
+    
+    <item>
+      <title>Making This Website</title>
+      <link>http://www.provision-software.com/blog/2016/11/01/making-this-site/</link>
+      <pubDate>Tue, 01 Nov 2016 03:39:46 +0200</pubDate>
+      
+      <guid>http://www.provision-software.com/blog/2016/11/01/making-this-site/</guid>
+      <description>Introduction I built this website for a couple different purposes. I wanted a place to showcase my portfolio and direct potential clients for my freelance business. I also wanted to build a blog. I decided that the two ideas related enough to warrant being one site. I also wanted something simple that wouldn&amp;rsquo;t take weeks to create and be a nightmare to host. I did some research and settled on using hugo, a static site generator built with the go programming language by Google.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.provision-software.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.provision-software.com/contact/</guid>
+      <description>We are here to help you Got a question? Are you looking for someone to develop a brand new app for your business? Maybe your website needs to be brought out of the stone ages and optimized for mobile devices. Please reach out to us. We will get back to you. We would love to handle your next project.
+Please feel free to contact us with any questions, concerns, or just to say hello.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.provision-software.com/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.provision-software.com/faq/</guid>
+      <description>These are just a few of the most common questions I get. If your question is not answered here please feel free to contact me. I will respond as quickly as I can.
+1. CAN YOU MAKE A WEBSITE FOR ME? Yes! I can build you a brand new website that will look great on any screen, from a full size desktop monitor down to your phone. If you already have a website that is outdated I can optimize it for the mobile web and make it look great again.</description>
+    </item>
+    
+  </channel>
+</rss>
