@@ -98,7 +98,7 @@ paginate = 10
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 4
+    weight = 5
     name = "Medium"
     url = "https://medium.com/@provision_software"
     pre = "<i class='fab fa-2x fa-medium'></i>"
@@ -108,6 +108,12 @@ paginate = 10
     name = "Facebook"
     url = "https://www.facebook.com/provisionsoftwarellc"
     pre = "<i class='fab fa-2x fa-facebook-f'></i>"
+    
+[[menu.topbar]]
+    weight = 4
+    name = "Instagram"
+    url = "https://www.instagram.com/provision.software"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
     
 [params.carousel]
     enable = true
